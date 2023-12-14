@@ -18,11 +18,11 @@ def load_lottieurl(url: str):
     return r.json()
 
 
-loti1 = 'https://lottie.host/cf12dbd5-1b73-4f28-9b21-c7cbe4f458c0/6BbHPnunDG.json'
+loti1 = 'https://lottie.host/f6f6e864-5d1a-40a6-b1a2-ad7b010d8a42/Ciq4KXOz6S.json'
 lot1 = load_lottieurl(loti1)
  
 
-loti2= "https://assets1.lottiefiles.com/private_files/lf30_m075yjya.json"
+loti2= "https://lottie.host/fc7a5741-62bc-4f72-925f-98b938c1456e/rjLO4dpxBa.json"
 lot2= load_lottieurl(loti2)
 
 
@@ -71,7 +71,7 @@ def main():
 
 def show_home(col1, col2):
     with col2:  
-        st_lottie(lot1, key="loti1", height=700, width=780)
+        st_lottie(lot1, key="loti1", height=900, width=780)
 
     
 
